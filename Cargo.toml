@@ -8,6 +8,7 @@ description = """"""
 license = "Unlicense OR MIT"
 
 [dependencies]
+rhai = { version = "1.8.0" }
 
 # Common
 cfg-if = { version = "1.0.0" } # branching compilation logic
@@ -27,10 +28,6 @@ anyhow = "1.0"
 # Logging
 log = "0.4" 
 env_logger = "0.9"
-
-#########################
-### Your dependencies ###
-#########################
 
 [features]
 some_feature = ["dep:serde","dep:serde_json"] # use this to use optional dependencies
