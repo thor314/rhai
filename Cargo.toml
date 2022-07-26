@@ -19,7 +19,7 @@ serde_json = { version = "1.0", optional = true }
 rand = { version = "0.8", optional = true }
 cute =  { version ="0.3", optional = true } # python-like list comprehensions
 
-validator = { version = "0.15", features = ["derive"], optional = true}
+validator = { version = "0.16", features = ["derive"], optional = true}
 
 # Error Handling
 thiserror = "1.0"
